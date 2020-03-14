@@ -1,0 +1,44 @@
+{
+  "name": "kitchen",
+  "version": "1.0.0",
+  "description": "PKR kitchen",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development --watch --hot --inline",
+    "server": "nodemon server/index.js"
+  },
+  "author": "Deepgmc",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepgmc/kitchen.git"
+  },
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-favicon": "^2.1.0",
+    "koa-passport": "^4.1.3",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.13.1",
+    "koa-session-mongoose-store": "^1.0.0-beta.1",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.9.4",
+    "passport-local": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "pug": "^2.0.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

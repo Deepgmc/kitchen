@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        title PKR Kitchen
+        style
+            include ../public/css/bootstrap.css
+            include ../public/css/bootstrap-grid.css
+            include ../public/css/global.css
+    body
+        #head_container.row.border-bottom
+            div.col-md-2
+            div.col-md-8
+                div.row
+                    div.col-md-10
+                        h3 #{pageName}
+                    div.col-md-2
+                        block login_info
+            div.col-md-2
+
+        #content_container.row
+            div.col-md-2
+            div.col-md-8.content_wrapper
+                block content
+            div.col-md-2
+
+        block scripts
